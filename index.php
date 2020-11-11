@@ -97,6 +97,6 @@ case "programa":
     mw_redirectToLogin($_SERVER["QUERY_STRING"]);
     die();
 }
-//prue2dsnklandl
+//prue2dsnklandllñm
 addToContext("pageRequest", $pageRequest);
 require_once "controllers/error.control.php";
