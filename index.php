@@ -93,10 +93,10 @@ case "programas":
     die();
 case "programa":
     ($logged)?
-      include_once "controllers/security/programa.control.php":
-      mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    include_once "controllers/security/programa.control.php":
+    mw_redirectToLogin($_SERVER["QUERY_STRING"]);
     die();
 }
-
+//pruebaaaaaaaaaaaaaaa
 addToContext("pageRequest", $pageRequest);
 require_once "controllers/error.control.php";
